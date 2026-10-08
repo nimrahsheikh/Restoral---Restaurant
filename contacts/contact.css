@@ -1,0 +1,693 @@
+*{
+    padding: 0;
+   margin: 0;
+}
+.navbar{
+    background-color:white;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    z-index: 999;
+}
+#mainlogo{
+     height: 30px;
+}
+#icon4{
+    text-decoration: none;
+   color: orange;
+    margin-right: 15px;
+      font-family: 'Poppins', sans-serif;
+     font-size: 13px;
+      margin-left: 10px;
+
+}
+#icon1{
+    text-decoration: none;
+   color: black;
+    margin-right: 15px;
+      margin-left: 9px;
+        font-family: 'Poppins', sans-serif;
+          font-size: 13px;
+
+}
+#icon1:hover{
+       color: orange;
+}
+#icon2{
+    text-decoration: none;
+    color:black;
+    margin-right: 15px;
+      margin-left: 10px;
+        font-family: 'Poppins', sans-serif;
+          font-size: 13px;
+}
+#icon2:hover{
+       color: orange;
+}
+#icon3{
+    text-decoration: none;
+    color: black;
+    margin-right: 30px;
+    margin-left: 10px;
+    font-family: 'Poppins', sans-serif;
+      font-size: 13px;
+}
+#icon3:hover{
+       color: orange;
+}
+#number{
+    font-size: 18px;
+   font-family:  'Montserrat', sans-serif;;
+   text-decoration: none;
+   color: black;
+   margin-left: 8px;
+
+}
+#number:hover{
+       color: orange;
+}
+
+
+  
+@media  ( min-width : 0px ) and (max-width : 500px ) {
+    .navbar{
+      height: 50px;
+      width: 500px;
+      flex-wrap: wrap;
+    }
+
+    #mainlogo{
+         height: 15px;
+         margin-top: 7px;
+    }
+    #icon1{
+      font-size: 8px;
+       margin-right: 9px;
+       margin-left: 10px;
+    }
+    .dash{
+      font-size: 10px;
+    }
+    
+     #icon2{
+      font-size: 8px;
+       margin-right: 9px;
+      margin-left: 5px;
+     }
+      #icon3{
+      font-size: 8px;
+       margin-right: 9px;
+      margin-left: 5px;
+     }
+      #icon4{
+      font-size: 8px;
+       margin-right: 9px;
+      margin-left: 5px;
+     }
+     #number{
+    font-size: 9px;
+    margin-right: 55px;
+  
+}
+#phoneicon{
+  font-size: 10px;
+  
+}
+}
+.aboutbanner {
+    height: 400px;
+
+    background-image:
+        linear-gradient(
+            rgba(0, 0, 0, 0.35),
+            rgba(0, 0, 0, 0.35)
+        ),
+        url("../about/images/aboutuskabackground.jpg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutcontent {
+    text-align: center;
+    color: white;
+    margin-top: 80px;
+}
+
+.aboutcontent h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 48px;
+    margin: 0 0 15px 0;
+    font-weight: bold;
+}
+
+.aboutcontent p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    margin: 0;
+}
+
+.aboutcontent p span {
+    color: #F5AB16;
+}
+.aboutcontent p span:hover{
+  color: white;
+}
+
+.aboutcontent i {
+    margin: 0 10px;
+    font-size: 12px;
+}
+@media  ( min-width : 0px ) and (max-width : 500px ) {
+
+    .aboutbanner {
+        height: 300px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .aboutcontent {
+        margin-top: 50px;
+        padding: 0 15px;
+    }
+
+    .aboutcontent h1 {
+        font-size: 32px;
+        margin-bottom: 12px;
+    }
+
+    .aboutcontent p {
+        font-size: 14px;
+    }
+
+    .aboutcontent i {
+        margin: 0 8px;
+        font-size: 10px;
+    }
+}
+.contactparent {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 40px;
+    gap: 70px;
+}
+
+#contactchild1 {
+    width: 65%;
+}
+
+#contactchild1heading {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 38px;
+    color: #222;
+    margin-bottom: 20px;
+}
+
+#contactchild1 > p {
+    text-align: center;
+    color: #999;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    line-height: 1.8;
+    margin-bottom: 40px;
+}
+
+/* FORM */
+
+#contactchild1 form {
+    font-family: 'Poppins', sans-serif;
+    color: #888;
+    font-size: 13px;
+}
+
+/* First + Last heading */
+
+#label1 {
+    color: #888;
+   
+}
+
+#label3 {
+    margin-left: 45%;
+}
+
+/* First + Last input */
+
+#label2 {
+    width: 48%;
+    padding: 17px 20px;
+    border: none;
+    border-radius: 30px;
+    background-color: #f5f5f5;
+    outline: none;
+    box-sizing: border-box;
+   margin-top: 15px;
+   margin-bottom: 15px;
+}
+
+#lastname {
+    width: 48%;
+    padding: 17px 20px;
+    margin-left: 3%;
+    border: none;
+    border-radius: 30px;
+    background-color: #f5f5f5;
+    outline: none;
+    box-sizing: border-box;
+}
+
+/* Message */
+
+#message {
+    width: 100%;
+    height: 100px;
+    padding: 18px 20px;
+    border: none;
+    border-radius: 25px;
+    background-color: #f5f5f5;
+    outline: none;
+    box-sizing: border-box;
+    resize: none;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+/* Email */
+
+#email {
+    width: 48%;
+    padding: 17px 20px;
+    border: none;
+    border-radius: 30px;
+    background-color: #f5f5f5;
+    outline: none;
+    box-sizing: border-box;
+      margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+/* Button */
+
+#buttoncontact {
+    width: 48%;
+    padding: 17px;
+    margin-left: 3%;
+    border: none;
+    border-radius: 30px;
+    background-color: #F5AB16;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#buttoncontact:hover {
+    background-color: #f05353;
+}
+
+
+/* RIGHT SIDE */
+
+.contactparent > div:last-child {
+    width: 300px;
+}
+
+/* Right headings */
+
+.contactparent > div:last-child h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #222;
+    margin: 0 0 25px 0;
+
+    border: none !important;
+    border-bottom: none !important;
+    box-shadow: none !important;
+}
+
+/* spacing */
+
+.contactparent > div:last-child h3:not(:first-child) {
+    margin-top: 40px;
+}
+
+/* Right text */
+
+.contactparent > div:last-child p {
+    display: inline-block;
+    color: #777;
+    font-size: 13px;
+    margin-left: 12px;
+    vertical-align: middle;
+}
+@media  ( min-width : 0px ) and (max-width : 500px ) {
+
+    .contactparent {
+        display: flex;
+        flex-direction: column;
+        padding: 40px 20px;
+        gap: 50px;
+        box-sizing: border-box;
+    }
+
+    /* LEFT SIDE */
+    #contactchild1 {
+        width: 100%;
+    }
+
+    #contactchild1heading {
+        font-size: 30px;
+        margin-bottom: 15px;
+    }
+
+    #contactchild1 > p {
+        font-size: 12px;
+        line-height: 1.7;
+        margin-bottom: 30px;
+    }
+
+    #contactchild1 form {
+        width: 100%;
+        font-size: 12px;
+    }
+
+    /* First + Last Name */
+
+    #label1 {
+        display: inline-block;
+    }
+
+    #label3 {
+        margin-left: 40%;
+    }
+
+    #label2 {
+        width: 48%;
+        padding: 15px;
+    }
+
+    #lastname {
+        width: 48%;
+        margin-left: 2%;
+        padding: 15px;
+    }
+
+    /* Message */
+
+    #message {
+        width: 100%;
+        height: 120px;
+        padding: 15px;
+    }
+
+    /* Email */
+
+    #email {
+        width: 100%;
+        padding: 15px;
+        margin-bottom: 15px;
+    }
+
+    /* Button */
+
+    #buttoncontact {
+        width: 100%;
+        margin-left: 0;
+        padding: 16px;
+    }
+
+    /* RIGHT SIDE */
+
+    .contactparent > div:last-child {
+        width: 100%;
+        text-align: left;
+    }
+
+    .contactparent > div:last-child h3 {
+        font-size: 18px;
+        margin-bottom: 18px;
+    }
+
+    .contactparent > div:last-child h3:not(:first-child) {
+        margin-top: 35px;
+    }
+
+    .contactparent > div:last-child p {
+        font-size: 12px;
+        margin-left: 10px;
+    }
+
+    .contactparent > div:last-child i {
+        font-size: 17px !important;
+    }
+}
+@media (max-width: 450px) {
+    iframe {
+        width: 100%;
+        height: 300px;
+        display: block;
+    }
+}
+ .footer1{
+    background-color: rgb(44, 39, 39);
+    height: 350px;
+    display: inline-block;
+    display: flex;
+    justify-content: space-around;
+   color: white;
+}
+.footer1div{
+    width: 350px;
+    display: inline-block;
+    margin-top: 50px;
+}
+.footer2div{
+    width: 350px;
+    display: inline-block;
+    margin-top: 50px;
+}
+.footer3div{
+    width: 350px;
+    display: inline-block;
+    margin-top: 50px;
+ 
+}
+#footer1divpara{
+       color: #777;
+  margin-top: 15px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+   
+}
+#footertime{
+    display: inline-block;
+    margin-left: 10px;
+}
+#footerpara2{
+           color: #777;
+            display: inline-block;
+            margin-left: 10px;
+
+}
+#footerheading1{
+    font-size: 40px;
+    font-weight: 30px;
+    margin-bottom: 15px;
+}
+#footer1divpara2{
+    line-height: 1.8;
+     color: #777;
+     margin-bottom: 15PX;
+}
+#footer1divpara3{
+    font-size: 20PX;
+    margin-bottom: 15px;
+}
+
+    #button4{
+      background-color: #f05353; 
+    padding: 20px 20px;        
+    border-radius: 30px;      
+    border: none;
+    color: #ffffff;
+    margin-left: 10px;
+    
+  
+}
+#button4:hover{
+    background-color:  #F5AB16; 
+}
+#footer1divpara4{
+       font-size: 25PX;
+       color: white;
+       margin-top: 20px;
+       margin-bottom: 20px;
+}
+@media  ( min-width : 0px ) and (max-width : 500px ) {
+
+    .footer1 {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 50px 20px;
+        box-sizing: border-box;
+        gap: 45px;
+    }
+
+    .footer1div,
+    .footer2div,
+    .footer3div {
+        width: 100%;
+        max-width: 350px;
+        margin-top: 0;
+        text-align: center;
+    }
+
+    .footer1div img {
+        height: 45px !important;
+        width: auto;
+    }
+
+    #footer1divpara {
+        font-size: 13px;
+        line-height: 1.6;
+        margin-top: 15px;
+        margin-bottom: 20px;
+    }
+
+    #address {
+        font-size: 14px;
+    }
+
+    #footerpara2 {
+        display: block;
+        margin-left: 0;
+        margin-top: 8px;
+        font-size: 13px;
+        line-height: 1.5;
+    }
+
+    .footer1div h5 {
+        font-size: 14px;
+        margin-top: 15px;
+    }
+
+    #footerheading1 {
+        font-size: 28px;
+        margin-bottom: 15px;
+    }
+
+    #footer1divpara2 {
+        font-size: 13px;
+        line-height: 1.8;
+        margin-bottom: 20px;
+    }
+
+    #footer1divpara3 {
+        font-size: 17px;
+        margin-bottom: 15px;
+    }
+
+    #footertime {
+        display: inline-block;
+        margin-left: 8px;
+        font-size: 13px;
+    }
+
+    .footer3div input {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 16px !important;
+        margin-bottom: 12px;
+    }
+
+    #button4 {
+        padding: 15px 30px;
+        margin-left: 0;
+        font-size: 12px;
+    }
+
+    #footer1divpara4 {
+        font-size: 22px;
+        margin-top: 25px;
+        margin-bottom: 20px;
+    }
+
+    .footer3div i {
+        font-size: 21px !important;
+        margin-left: 5px !important;
+        margin-right: 5px;
+    }
+}
+.footer2{
+      background-color: rgb(66, 60, 60);
+      height: 50px;
+      padding-top: 20px;
+      padding-left: 40px;
+         color: #777;
+}
+#footer2a{
+       color: #777;
+}
+#footer2a:hover{
+    color: rgb(247, 161, 74);
+}
+@media  ( min-width : 0px ) and (max-width : 500px ) {
+
+    .footer2 {
+        height: auto;
+        min-height: 70px;
+        padding: 18px 15px;
+        box-sizing: border-box;
+        text-align: center;
+        font-size: 12px;
+        line-height: 1.8;
+    }
+
+    #footer2a {
+        font-size: 12px;
+        margin: 0 3px;
+    }
+}
+#backtotop {
+    position: fixed;
+    right: 30px;
+    bottom: 25px;
+    width: 50px;
+    height: 50px;
+    background-color: #F5AB16;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 20px;
+    z-index: 999;
+}
+
+#backtotop:hover {
+    background-color: #f05353;
+}
+@media  ( min-width : 0px ) and (max-width : 500px ) {
+
+    #backtotop {
+        width: 42px;
+        height: 42px;
+        right: 15px;
+        bottom: 15px;
+        font-size: 17px;
+    }
+
+} 
+
